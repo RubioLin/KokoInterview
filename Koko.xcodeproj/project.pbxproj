@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F04D48E2C05A67C006E8D20 /* NoFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D48D2C05A67C006E8D20 /* NoFriendView.swift */; };
+		0F04D4922C061F2D006E8D20 /* FriendTableViewCellWithStatus1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4912C061F2D006E8D20 /* FriendTableViewCellWithStatus1.swift */; };
+		0F04D4942C061F38006E8D20 /* InviteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4932C061F38006E8D20 /* InviteTableViewCell.swift */; };
+		0F04D4992C06256B006E8D20 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4982C06256B006E8D20 /* APIManager.swift */; };
+		0F04D49C2C0639C4006E8D20 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D49B2C0639C4006E8D20 /* User.swift */; };
+		0F04D49F2C070471006E8D20 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D49E2C070471006E8D20 /* Content.swift */; };
+		0F04D4A22C070CBC006E8D20 /* SelectStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4A12C070CBC006E8D20 /* SelectStateViewController.swift */; };
+		0F04D4A42C073BCD006E8D20 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4A32C073BCD006E8D20 /* Friends.swift */; };
+		0F04D4A62C08860B006E8D20 /* FriendTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F04D4A52C08860B006E8D20 /* FriendTableViewHeader.swift */; };
+		0F5DCA592C03A86D00EC99D8 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DCA582C03A86D00EC99D8 /* BadgeView.swift */; };
 		0F74475A2BFF3DF900BF2793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7447592BFF3DF900BF2793 /* AppDelegate.swift */; };
 		0F74475C2BFF3DF900BF2793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74475B2BFF3DF900BF2793 /* SceneDelegate.swift */; };
 		0F74475E2BFF3DF900BF2793 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74475D2BFF3DF900BF2793 /* FriendViewController.swift */; };
@@ -17,10 +27,26 @@
 		0F7447742BFF3F0500BF2793 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7447732BFF3F0500BF2793 /* CombineCocoa */; };
 		0F74477C2BFF50DC00BF2793 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74477B2BFF50DC00BF2793 /* FriendView.swift */; };
 		0F74477E2BFF50E100BF2793 /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F74477D2BFF50E100BF2793 /* FriendViewModel.swift */; };
-		0FDD877A2BFF6332001D4ADF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD87792BFF6332001D4ADF /* MainTabBarController.swift */; };
+		0F8F1E0E2C02562400E6C27B /* PingFangTC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8F1E0D2C02562400E6C27B /* PingFangTC-Medium.otf */; };
+		0F8F1E102C0257BA00E6C27B /* PingFangTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8F1E0F2C0257BA00E6C27B /* PingFangTC-Regular.otf */; };
+		0F9DABAF2C09A70A008808A1 /* FriendTableViewCellWithStatus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DABAE2C09A70A008808A1 /* FriendTableViewCellWithStatus2.swift */; };
+		0F9DABB12C09CA3E008808A1 /* FriendTableViewHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DABB02C09CA3E008808A1 /* FriendTableViewHeaderViewModel.swift */; };
+		0FCC70A92C04F5D300C0FC9F /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC70A82C04F5D300C0FC9F /* PaddingLabel.swift */; };
+		0FDD877D2C025039001D4ADF /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD877C2C025039001D4ADF /* UIColor+.swift */; };
+		0FDD877F2C025150001D4ADF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD877E2C025150001D4ADF /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F04D48D2C05A67C006E8D20 /* NoFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFriendView.swift; sourceTree = "<group>"; };
+		0F04D4912C061F2D006E8D20 /* FriendTableViewCellWithStatus1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCellWithStatus1.swift; sourceTree = "<group>"; };
+		0F04D4932C061F38006E8D20 /* InviteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteTableViewCell.swift; sourceTree = "<group>"; };
+		0F04D4982C06256B006E8D20 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0F04D49B2C0639C4006E8D20 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F04D49E2C070471006E8D20 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		0F04D4A12C070CBC006E8D20 /* SelectStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateViewController.swift; sourceTree = "<group>"; };
+		0F04D4A32C073BCD006E8D20 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		0F04D4A52C08860B006E8D20 /* FriendTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewHeader.swift; sourceTree = "<group>"; };
+		0F5DCA582C03A86D00EC99D8 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		0F7447562BFF3DF900BF2793 /* Koko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7447592BFF3DF900BF2793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F74475B2BFF3DF900BF2793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +56,13 @@
 		0F7447672BFF3E0400BF2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F74477B2BFF50DC00BF2793 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		0F74477D2BFF50E100BF2793 /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
-		0FDD87792BFF6332001D4ADF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0F8F1E0D2C02562400E6C27B /* PingFangTC-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PingFangTC-Medium.otf"; sourceTree = "<group>"; };
+		0F8F1E0F2C0257BA00E6C27B /* PingFangTC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PingFangTC-Regular.otf"; sourceTree = "<group>"; };
+		0F9DABAE2C09A70A008808A1 /* FriendTableViewCellWithStatus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCellWithStatus2.swift; sourceTree = "<group>"; };
+		0F9DABB02C09CA3E008808A1 /* FriendTableViewHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewHeaderViewModel.swift; sourceTree = "<group>"; };
+		0FCC70A82C04F5D300C0FC9F /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		0FDD877C2C025039001D4ADF /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0FDD877E2C025150001D4ADF /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F04D48F2C061F0A006E8D20 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F04D4912C061F2D006E8D20 /* FriendTableViewCellWithStatus1.swift */,
+				0F9DABAE2C09A70A008808A1 /* FriendTableViewCellWithStatus2.swift */,
+				0F04D4932C061F38006E8D20 /* InviteTableViewCell.swift */,
+				0F04D4A52C08860B006E8D20 /* FriendTableViewHeader.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0F04D4972C062562006E8D20 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0F04D4982C06256B006E8D20 /* APIManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0F04D49A2C0639BB006E8D20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F04D49B2C0639C4006E8D20 /* User.swift */,
+				0F04D4A32C073BCD006E8D20 /* Friends.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0F74474D2BFF3DF900BF2793 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +141,8 @@
 				0F74475B2BFF3DF900BF2793 /* SceneDelegate.swift */,
 				0F7447622BFF3E0400BF2793 /* Assets.xcassets */,
 				0F7447672BFF3E0400BF2793 /* Info.plist */,
+				0F8F1E0D2C02562400E6C27B /* PingFangTC-Medium.otf */,
+				0F8F1E0F2C0257BA00E6C27B /* PingFangTC-Regular.otf */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -89,7 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				0F7447792BFF508D00BF2793 /* Launch */,
+				0F8F1E112C03597700E6C27B /* Utility */,
 				0F74477A2BFF509F00BF2793 /* Screen */,
+				0F04D48F2C061F0A006E8D20 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				0F74477D2BFF50E100BF2793 /* FriendViewModel.swift */,
+				0F9DABB02C09CA3E008808A1 /* FriendTableViewHeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -105,6 +170,10 @@
 		0F7447782BFF508100BF2793 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0F04D49A2C0639BB006E8D20 /* Models */,
+				0F04D4972C062562006E8D20 /* Manager */,
+				0FDD877B2C025024001D4ADF /* Extension */,
+				0F04D49E2C070471006E8D20 /* Content.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,11 +189,30 @@
 		0F74477A2BFF509F00BF2793 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				0FDD87792BFF6332001D4ADF /* MainTabBarController.swift */,
+				0F04D4A12C070CBC006E8D20 /* SelectStateViewController.swift */,
 				0F74475D2BFF3DF900BF2793 /* FriendViewController.swift */,
 				0F74477B2BFF50DC00BF2793 /* FriendView.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		0F8F1E112C03597700E6C27B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F5DCA582C03A86D00EC99D8 /* BadgeView.swift */,
+				0FCC70A82C04F5D300C0FC9F /* PaddingLabel.swift */,
+				0F04D48D2C05A67C006E8D20 /* NoFriendView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0FDD877B2C025024001D4ADF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0FDD877C2C025039001D4ADF /* UIColor+.swift */,
+				0FDD877E2C025150001D4ADF /* UIView+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7447662BFF3E0400BF2793 /* LaunchScreen.storyboard in Resources */,
+				0F8F1E102C0257BA00E6C27B /* PingFangTC-Regular.otf in Resources */,
+				0F8F1E0E2C02562400E6C27B /* PingFangTC-Medium.otf in Resources */,
 				0F7447632BFF3E0400BF2793 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,11 +297,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F74477E2BFF50E100BF2793 /* FriendViewModel.swift in Sources */,
+				0F04D4A62C08860B006E8D20 /* FriendTableViewHeader.swift in Sources */,
+				0F9DABAF2C09A70A008808A1 /* FriendTableViewCellWithStatus2.swift in Sources */,
+				0F9DABB12C09CA3E008808A1 /* FriendTableViewHeaderViewModel.swift in Sources */,
 				0F74475E2BFF3DF900BF2793 /* FriendViewController.swift in Sources */,
-				0FDD877A2BFF6332001D4ADF /* MainTabBarController.swift in Sources */,
+				0F04D48E2C05A67C006E8D20 /* NoFriendView.swift in Sources */,
+				0F04D4922C061F2D006E8D20 /* FriendTableViewCellWithStatus1.swift in Sources */,
+				0F04D49C2C0639C4006E8D20 /* User.swift in Sources */,
 				0F74475A2BFF3DF900BF2793 /* AppDelegate.swift in Sources */,
+				0F04D4A22C070CBC006E8D20 /* SelectStateViewController.swift in Sources */,
+				0FDD877F2C025150001D4ADF /* UIView+.swift in Sources */,
+				0F04D4942C061F38006E8D20 /* InviteTableViewCell.swift in Sources */,
+				0F04D4A42C073BCD006E8D20 /* Friends.swift in Sources */,
 				0F74477C2BFF50DC00BF2793 /* FriendView.swift in Sources */,
+				0F5DCA592C03A86D00EC99D8 /* BadgeView.swift in Sources */,
 				0F74475C2BFF3DF900BF2793 /* SceneDelegate.swift in Sources */,
+				0F04D4992C06256B006E8D20 /* APIManager.swift in Sources */,
+				0FDD877D2C025039001D4ADF /* UIColor+.swift in Sources */,
+				0F04D49F2C070471006E8D20 /* Content.swift in Sources */,
+				0FCC70A92C04F5D300C0FC9F /* PaddingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,15 +457,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9VFL264JH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Koko/Info.plist;
+				INFOPLIST_FILE = "Koko/Supporting File/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,6 +475,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,15 +487,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B9VFL264JH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Koko/Info.plist;
+				INFOPLIST_FILE = "Koko/Supporting File/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +505,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Koko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
